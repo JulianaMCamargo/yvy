@@ -1,0 +1,29 @@
+:root{
+  --verde-claro: #f8fbf8;
+  --verde-medio: #b0bdb1;
+  --verde-escuro: #8b9694;
+
+  --branco: #ffffff;
+
+  --preto-escuro: #000000;
+  --preto-medio: #1f2122;
+
+  --fonte-titulo: 'Aileron', sans-serif;
+  --fonte-corpo: 'TT Commons', sans-serif;
+  --fonte-links: 'Helios Antique', sans-serif;
+                                                
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Aileron', 'TT Commons', 'Helios Antique', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

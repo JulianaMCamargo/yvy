@@ -1,0 +1,6 @@
+.secao{
+    display: flex;
+    padding: 2rem 8rem;
+    height: 100vh;
+    box-sizing: border-box;
+}

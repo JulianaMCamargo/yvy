@@ -1,0 +1,24 @@
+.container {
+    margin-top: .5em;
+    width: 412px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.capa{
+    width: 100%;
+    height: 250px;
+}
+
+.textos p{
+    font-size: 0.8rem;
+    font-family: var(--fonte-corpo);
+}
+
+.titulo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-titulo);
+}

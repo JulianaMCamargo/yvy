@@ -1,0 +1,6 @@
+.titulo{
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 4.5rem;
+    width: 40%;
+}

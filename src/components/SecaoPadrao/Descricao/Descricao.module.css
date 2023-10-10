@@ -1,0 +1,13 @@
+.descricao{
+    font-family: var(--fonte-corpo);
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--preto-medio);
+    line-height: 2rem;
+
+    width: 30%;
+    padding-left: 2rem;
+    
+    align-self: center;
+
+}
