@@ -1,0 +1,11 @@
+.botao{ 
+    width: 200px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: var(--fonte-links);
+    border: solid 0.5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
