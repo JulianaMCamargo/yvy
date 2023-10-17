@@ -4,13 +4,12 @@ import styles from './Card.module.css';
 function Card({ id, capa, titulo, descricao, localidade, link }) {
     return (
         <div className={styles.container}>
-            <Link className={styles.link} to={link} key={id}>
-                <img src={capa} alt={titulo} className={styles.capa} />
-            </Link>
+            <Link className={styles.capa} to={link} key={id} style={{backgroundImage: `url(${capa})`}}/>
+            
             <div className={styles.textos}>
-                <p>{localidade}</p>
+                <p className={styles.localidade}>{localidade}</p>
                 <h4 className={styles.titulo}>{titulo}</h4>
-                <p>{descricao}</p>
+                <p className={styles.descricao}>{descricao}</p>
             </div>
         </div>
     )

@@ -1,24 +1,40 @@
 .container {
     margin-top: .5em;
-    width: 412px;
-    height: 450px;
+    height: 640px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .capa{
     width: 100%;
-    height: 250px;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .textos p{
-    font-size: 0.8rem;
+    font-size: 1.25rem;
     font-family: var(--fonte-corpo);
+    font-weight: 300;
+    margin: 0;
+}
+
+.localidade{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: var(--preto-medio);
 }
 
 .titulo{
     font-size: 1.5rem;
     font-family: var(--fonte-titulo);
+    font-weight: 400;
+    color: var(--preto-escuro);
+    margin: 0;
+    padding-bottom: 0.2rem;
 }
