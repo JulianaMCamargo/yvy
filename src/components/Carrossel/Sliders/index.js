@@ -11,8 +11,24 @@ function Sliders() {
     const projetos = [
         {
             id: uuidv4(),
-            capa: {ap},
+            capa: 'https://github.com/JulianaMCamargo/yvy/blob/main/public/images/ap_161_01.png?raw=true',
             titulo: 'Apartamento 161',
+            descricao: 'Designer de um apartamento',
+            localidade: 'São Paulo',
+            link: '#',
+        },
+        {
+            id: uuidv4(),
+            capa: 'https://github.com/JulianaMCamargo/yvy/blob/main/public/images/qt_oeiras_01.jpeg?raw=true',
+            titulo: 'Quarto',
+            descricao: 'Remodelação quarto de casal',
+            localidade: 'Oeiras',
+            link: '#',
+        },
+        {
+            id: uuidv4(),
+            capa: 'https://github.com/JulianaMCamargo/yvy/blob/main/public/images/ap_joab_01.jpeg?raw=true',
+            titulo: 'Apartamento São Paulo',
             descricao: 'Designer de um apartamento',
             localidade: 'São Paulo',
             link: '#',
@@ -37,7 +53,7 @@ function Sliders() {
                     <div key={projeto.id} className={styles.card}>
                         <Card
                             id={projeto.id}
-                            capa={projeto.linkImagem}
+                            capa={projeto.capa}
                             titulo={projeto.titulo}
                             descricao={projeto.descricao}
                             localidade={projeto.localidade}
