@@ -1,0 +1,18 @@
+.areaTexto{
+    color: var(--verde-escuro);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-corpo);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.areaTexto textarea{
+    background-color: var(--preto-escuro);
+    border-color: var(--verde-escuro);
+    color: var(--branco);
+    font-family: var(--fonte-corpo);
+    font-size: 1.25rem;
+    font-weight: 300;
+    
+}
