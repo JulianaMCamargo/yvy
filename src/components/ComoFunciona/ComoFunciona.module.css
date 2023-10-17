@@ -1,0 +1,60 @@
+.secao{
+    background-color: var(--verde-medio);
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    color: var(--preto-medio);
+}
+
+.roteiro{
+    display: flex;
+    align-items: center;
+}
+
+.numerosLista{
+    list-style: none;
+    font-size: 4.5rem;
+    font-family: var(--fonte-titulo);
+    font-weight: 300;
+    color: var(--preto-medio);
+    padding-right: 1rem;
+}
+
+.numerosLista li{
+    padding-bottom: 4rem;
+}
+
+.passoAPasso{
+    border-left: solid 2px;
+    border-color: var(--preto-medio);
+    list-style: none;
+    width: 60%;
+    padding-right: 7rem;
+}
+
+.passoAPasso li{
+    padding-bottom: 2rem;
+}
+
+.passoAPasso h7{
+    font-family: var(--fonte-titulo);
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: var(--preto-medio);
+}
+
+.passoAPasso p{
+    font-family: var(--fonte-corpo);
+    font-size: 1.25rem;
+    color: var(--preto-medio);
+    font-weight: 300;
+}
+
+.imagemRoteiro{
+    height: 400px;
+    align-self: end;
+    justify-self: end;
+}
+
